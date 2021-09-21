@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    hiệu ứng di chuyển vào từ bên trái màn hình -->
+    <translate
+        android:fromXDelta="-100%"
+        android:toXDelta="0%"
+        android:duration="1000"/>
+<!--    hiệu ứng độ trong suốt rõ dần đồng thời với hiệu ứng di chuyển -->
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="1000"/>
+</set>
